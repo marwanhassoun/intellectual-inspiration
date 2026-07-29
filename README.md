@@ -1,17 +1,13 @@
-# Intellectual Inspiration — Version 2
+# Intellectual Inspiration Version 3
 
-A modern static website prepared for GitHub Pages.
+Faithful static reconstruction based on the original WordPress files and original uploaded assets.
 
-## Deployment
-Upload all files to the root of the `marwanhassoun/intellectual-inspiration` repository.
+## Preview
+Do not add a CNAME file while previewing:
+https://marwanhassoun.github.io/intellectual-inspiration/
 
-GitHub Pages settings:
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /(root)
-- Custom domain: intellectualinspiration.com
+## Launch
+After approval, add a file named CNAME containing:
+intellectualinspiration.com
 
-## Review before DNS cutover
-The public site is protected by Sucuri, so direct extraction of all original visual assets was not possible. This version preserves the verified public page structure and content in a new professional design. Replace the `MH` portrait placeholder with an approved headshot before final launch if desired.
-
-Do not change GoDaddy/Sucuri DNS until the GitHub preview has been reviewed.
+Then configure the custom domain in GitHub Pages and update DNS/Sucuri.

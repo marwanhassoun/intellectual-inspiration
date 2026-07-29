@@ -1,5 +1,1 @@
-
-const btn=document.querySelector('.menu-button');
-const nav=document.querySelector('.nav');
-if(btn&&nav){btn.addEventListener('click',()=>nav.classList.toggle('open'));}
-const y=document.getElementById('year'); if(y)y.textContent=new Date().getFullYear();
+const b=document.querySelector('.menu'),n=document.querySelector('.links');if(b&&n)b.onclick=()=>n.classList.toggle('open');const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();

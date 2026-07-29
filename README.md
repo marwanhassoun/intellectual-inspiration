@@ -1,15 +1,17 @@
-# Intellectual Inspiration Website
+# Intellectual Inspiration — Version 2
 
-Static website prepared for GitHub Pages.
+A modern static website prepared for GitHub Pages.
 
-## Publish
-1. Create a public GitHub repository named `intellectual-inspiration`.
-2. Upload all files from this package to the repository root.
-3. In Settings → Pages, set Source to **Deploy from a branch**, branch **main**, folder **/(root)**.
-4. In Pages, set custom domain to `intellectualinspiration.com`.
-5. Add the DNS records described in `GODADDY-DNS.txt`.
+## Deployment
+Upload all files to the root of the `marwanhassoun/intellectual-inspiration` repository.
 
-## Before final cutover
-- Replace the `MH` placeholder on the Team page with the original headshot if desired.
-- Add `Hassoun_CV.pdf` to the repository root.
-- Test every page at the temporary GitHub Pages address.
+GitHub Pages settings:
+- Source: Deploy from a branch
+- Branch: main
+- Folder: /(root)
+- Custom domain: intellectualinspiration.com
+
+## Review before DNS cutover
+The public site is protected by Sucuri, so direct extraction of all original visual assets was not possible. This version preserves the verified public page structure and content in a new professional design. Replace the `MH` portrait placeholder with an approved headshot before final launch if desired.
+
+Do not change GoDaddy/Sucuri DNS until the GitHub preview has been reviewed.

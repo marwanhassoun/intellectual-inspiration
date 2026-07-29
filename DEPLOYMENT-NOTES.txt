@@ -1,0 +1,13 @@
+INTELLECTUAL INSPIRATION V2 DEPLOYMENT
+
+1. Upload the contents of this folder to the repository root.
+2. To preview without redirecting to the live domain, temporarily remove:
+   - the CNAME file from the repository, and
+   - the Custom domain entry under GitHub Settings > Pages.
+3. Preview at:
+   https://marwanhassoun.github.io/intellectual-inspiration/
+4. After approval, restore CNAME and the custom-domain setting.
+5. Only then modify DNS/Sucuri.
+
+IMPORTANT:
+The current domain points through Sucuri. Do not replace the live A record until the new site is approved and the Sucuri plan/cutover strategy is decided.

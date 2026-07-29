@@ -1,0 +1,18 @@
+Do not change DNS until the GitHub Pages preview has been tested.
+
+At GoDaddy DNS, configure:
+
+A     @       185.199.108.153
+A     @       185.199.109.153
+A     @       185.199.110.153
+A     @       185.199.111.153
+CNAME www     marwanhassoun.github.io
+
+Remove or replace older website-hosting A/AAAA/CNAME records that conflict with @ or www.
+Do not remove MX, TXT, or other email-related records.
+
+In GitHub:
+Repository → Settings → Pages → Custom domain:
+intellectualinspiration.com
+
+Then enable “Enforce HTTPS” after GitHub issues the certificate.

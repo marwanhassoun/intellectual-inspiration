@@ -11,3 +11,6 @@ After approval, add a file named CNAME containing:
 intellectualinspiration.com
 
 Then configure the custom domain in GitHub Pages and update DNS/Sucuri.
+
+## Version 3.1 change
+The logo and navigation now share one horizontal white header. The separate black navigation band and unused black area were removed.
